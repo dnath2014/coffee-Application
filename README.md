@@ -14,13 +14,22 @@ Building the project:
 Open coffeeApp.xcworkspace and build and Run
 
 
+
 Class Description:
+
 coffeeManager - Used to generate the singleton object
+
 coffeeClient - Used to make Networking calls
+
 coffeeItem - Individual coffee item in the array after parsing jason response
+
 coffeeDetail - Details of coffee after parsing jason response
+
 coffeeTableViewController - Displays the list of coffee in a tableview
+
 coffeeDetailViewController - Displays details of coffee
+
 coffeeTableViewCell - tableview cell without image
+
 coffeeImageTableViewCell - tableview cell with image
 
