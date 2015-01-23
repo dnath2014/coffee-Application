@@ -227,14 +227,14 @@ static NSString *CellTextIdentifier = @"CellTextIdentifier";
 
 	
 }
-/*
+
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
 	if([self hasImage:indexPath])
 		return 154;
 	else
 		return 54;
 
-}*/
+}
 
 
 

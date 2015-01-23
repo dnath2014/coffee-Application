@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2259276C1A6E038C002C7155 /* coffeeImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2259276B1A6E038C002C7155 /* coffeeImageTableViewCell.m */; };
+		225FE0C71A71C4ED00855445 /* coffeeImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 225FE0C61A71C4ED00855445 /* coffeeImageTableViewCell.m */; };
+		225FE0C91A71C59200855445 /* coffeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225FE0C81A71C59200855445 /* coffeeTableViewController.m */; };
 		228593BE1A6858A1001F6368 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228593BD1A6858A1001F6368 /* LaunchScreen.xib */; };
 		2292A81519FDABB600DD507A /* coffeeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292A81419FDABB600DD507A /* coffeeClient.m */; };
 		2292A81819FDABF900DD507A /* coffeeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292A81719FDABF900DD507A /* coffeeManager.m */; };
-		2292A81B19FDACE500DD507A /* coffeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292A81A19FDACE500DD507A /* coffeeTableViewController.m */; };
 		2292A81F19FDD3B400DD507A /* coffeeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292A81E19FDD3B400DD507A /* coffeeItem.m */; };
 		2292A8231A008B7C00DD507A /* coffeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2292A8221A008B7C00DD507A /* coffeeTableViewCell.m */; };
 		2293FC231A00AF2700C516E0 /* coffeeDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2293FC221A00AF2700C516E0 /* coffeeDetail.m */; };
@@ -43,14 +43,14 @@
 
 /* Begin PBXFileReference section */
 		2259276A1A6E038C002C7155 /* coffeeImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeeImageTableViewCell.h; sourceTree = "<group>"; };
-		2259276B1A6E038C002C7155 /* coffeeImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = coffeeImageTableViewCell.m; path = ../../../../../../../../Downloads/coffeeApp/coffeeApp/coffeeApp/coffeeImageTableViewCell.m; sourceTree = BUILT_PRODUCTS_DIR; };
+		225FE0C61A71C4ED00855445 /* coffeeImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coffeeImageTableViewCell.m; sourceTree = "<group>"; };
+		225FE0C81A71C59200855445 /* coffeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coffeeTableViewController.m; sourceTree = "<group>"; };
 		228593BD1A6858A1001F6368 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		2292A81319FDABB600DD507A /* coffeeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeeClient.h; sourceTree = "<group>"; };
 		2292A81419FDABB600DD507A /* coffeeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coffeeClient.m; sourceTree = "<group>"; };
 		2292A81619FDABF900DD507A /* coffeeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeeManager.h; sourceTree = "<group>"; };
 		2292A81719FDABF900DD507A /* coffeeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coffeeManager.m; sourceTree = "<group>"; };
 		2292A81919FDACE500DD507A /* coffeeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeeTableViewController.h; sourceTree = "<group>"; };
-		2292A81A19FDACE500DD507A /* coffeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = coffeeTableViewController.m; path = ../../../../Users/prasad/Downloads/coffeeApp/coffeeApp/coffeeApp/coffeeTableViewController.m; sourceTree = DEVELOPER_DIR; };
 		2292A81D19FDD3B400DD507A /* coffeeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeeItem.h; sourceTree = "<group>"; };
 		2292A81E19FDD3B400DD507A /* coffeeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coffeeItem.m; sourceTree = "<group>"; };
 		2292A8211A008B7C00DD507A /* coffeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeeTableViewCell.h; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 				2292A81619FDABF900DD507A /* coffeeManager.h */,
 				2292A81719FDABF900DD507A /* coffeeManager.m */,
 				2292A81919FDACE500DD507A /* coffeeTableViewController.h */,
-				2292A81A19FDACE500DD507A /* coffeeTableViewController.m */,
+				225FE0C81A71C59200855445 /* coffeeTableViewController.m */,
 				2292A81D19FDD3B400DD507A /* coffeeItem.h */,
 				2292A81E19FDD3B400DD507A /* coffeeItem.m */,
 				2292A8211A008B7C00DD507A /* coffeeTableViewCell.h */,
@@ -160,7 +160,7 @@
 				2293FC241A00B46600C516E0 /* coffeeDetailViewController.h */,
 				2293FC251A00B46600C516E0 /* coffeeDetailViewController.m */,
 				2259276A1A6E038C002C7155 /* coffeeImageTableViewCell.h */,
-				2259276B1A6E038C002C7155 /* coffeeImageTableViewCell.m */,
+				225FE0C61A71C4ED00855445 /* coffeeImageTableViewCell.m */,
 			);
 			path = coffeeApp;
 			sourceTree = "<group>";
@@ -338,12 +338,12 @@
 				2292A81F19FDD3B400DD507A /* coffeeItem.m in Sources */,
 				2292A8231A008B7C00DD507A /* coffeeTableViewCell.m in Sources */,
 				22F85E8C19FDA21A00205C1C /* coffeeAppDelegate.m in Sources */,
-				2259276C1A6E038C002C7155 /* coffeeImageTableViewCell.m in Sources */,
+				225FE0C91A71C59200855445 /* coffeeTableViewController.m in Sources */,
+				225FE0C71A71C4ED00855445 /* coffeeImageTableViewCell.m in Sources */,
 				2292A81819FDABF900DD507A /* coffeeManager.m in Sources */,
 				2293FC231A00AF2700C516E0 /* coffeeDetail.m in Sources */,
 				2292A81519FDABB600DD507A /* coffeeClient.m in Sources */,
 				2293FC261A00B46600C516E0 /* coffeeDetailViewController.m in Sources */,
-				2292A81B19FDACE500DD507A /* coffeeTableViewController.m in Sources */,
 				22F85E8819FDA21A00205C1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
